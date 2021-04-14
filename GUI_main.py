@@ -612,7 +612,7 @@ def audio_steg_window(username,flag,uuid):
     b_audio.pack(side=RIGHT)
     b_img = Button(topframe2, text="Image", command=lambda: [awin.destroy(), img_steg_window(username, flag, uuid)])
     b_img.pack(side=RIGHT)
-    btn_user_mgmt = Button(topframe2, text="User Mgmt", padx=20,command=lambda: [awin.destory(), user_mgmt(username, flag, uuid) ])
+    btn_user_mgmt = Button(topframe2, text="User Mgmt", padx=20,command=lambda: [awin.destory(), user_mgmt(username, flag, uuid, awin) ])
     if flag == "admin":
         btn_user_mgmt.pack(side=RIGHT)
     frame_audio1 = LabelFrame(awin, text="Embed in Audio File", padx=10, pady=10)
