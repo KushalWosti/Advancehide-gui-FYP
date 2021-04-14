@@ -4,10 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 import json
 
-#dest = "C:/Users/kushal/Pictures/encrypic.PNG"
-#pathimg2 = "aa"
-#secret_key2 = b"kushal@wosti1234578896"
-
 
 def ext_image(pathimg2, secret_key2):
     try:
